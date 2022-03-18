@@ -1,0 +1,56 @@
+nav {
+    border: 1px solid #ccc;
+}
+@media (max-width: 991.98px) {
+    .nav-vertical {
+        border: 1px solid #ccc;
+        right: -301px;
+        position: absolute;
+        width: 300px;
+        top: 57px;
+        transition: all .2s ease-out;
+    }
+    .active {
+        right: -1px;
+    }
+}
+.heading {
+     color: #440d77; 
+     font-size: 80px
+    }
+.heading2{
+    color: #440d77;
+    font-size: 50px;
+}
+.parrafo {
+    color: rgb(158, 156, 156);
+    font-size: 30px
+}
+.parrafo2{
+    color: rgb(158, 156, 156);
+    font-size: 20px
+}
+.img {
+    height: 1150px;
+    width: 120%
+   }
+.img2{
+    height: 1000px;
+    width: 100%
+}
+.img3{
+    height: 800;
+    width: 100%;
+}
+.reloj{
+    color: #440d77;
+    font-size: 25px;
+}   
+.sombras {
+    box-shadow: 2px 2px 5px #999;
+}
+.center {
+    display: table-cell;
+    height: 280px;
+    vertical-align: middle;
+}
